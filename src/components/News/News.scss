@@ -13,10 +13,12 @@ $border-color: #F2F6FB;
         } 
         .ant-menu-vertical > .ant-menu-item-selected{
             background-color: white;
-            border-top: 1px solid $border-color;
-            border-bottom: 1px solid $border-color;  
-            border-left: 1px solid $border-color;
+            border-top: 0.1rem solid $border-color;
+            border-left: 0.1rem solid $border-color;
+            border-bottom: 0.1rem solid $border-color;
+
         }
+        
     }
     .ant-col {
         margin-left: 1rem;
@@ -69,7 +71,8 @@ $border-color: #F2F6FB;
         .ant-btn { 
             margin-left: 1rem; 
             border-color: #94E8E3;
-            color: #94E8E3; 
+            color: #94E8E3;
+            width: 8rem;
         }
 
     }

@@ -29,7 +29,7 @@ const NewsCard = ( { NewsItem }) => {
                         <span> { NewsItem.newsPaper["name"] } </span> 
                     </Col>
                     <Col span={10}>
-                        <Icon type="play-circle" theme="filled" />
+                        <Icon type="compass" />
                         <span> { NewsItem.publisherName } </span> 
                     </Col>
                     <Col span={10}> 
@@ -39,7 +39,7 @@ const NewsCard = ( { NewsItem }) => {
                         </a>
                     </Col>
                     <Col span={10}> 
-                        <Icon type="play-circle" theme="filled" />
+                        <Icon type="clock-circle" />
                         <span> { NewsItem.publishtime } </span> 
                     </Col>
                 </Col>
