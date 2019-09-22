@@ -11,12 +11,18 @@ $border-color: #F2F6FB;
             margin-top: 0;
             color: inherit;
         } 
-        .ant-menu-vertical > .ant-menu-item-selected{
-            background-color: white;
-            border-top: 0.1rem solid $border-color;
-            border-left: 0.1rem solid $border-color;
-            border-bottom: 0.1rem solid $border-color;
 
+        .ant-menu-inline .ant-menu-item{
+            &-selected{
+                background-color: white;
+                border-top: 0.1rem solid $border-color;
+                border-left: 0.1rem solid $border-color;
+                border-bottom: 0.1rem solid $border-color;
+            }
+            &::after {
+                border-right: 3px solid white;
+                
+            }
         }
         
     }

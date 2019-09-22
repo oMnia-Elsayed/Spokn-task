@@ -5,7 +5,7 @@
 .App { 
     box-sizing: border-box; 
 }
-.ant-card-bordered ,.ant-menu-horizontal ,.ant-menu-vertical {
+.ant-card-bordered ,.ant-menu-horizontal ,.ant-menu-inline {
     border: none;
 }
 
