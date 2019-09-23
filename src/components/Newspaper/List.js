@@ -11,7 +11,7 @@ const NewspaperList = () => {
     return (
         <div className="news--list">
             <Row>
-                <Col xs={24} sm={24} md={8} lg={5} xl={5}>
+                <Col xs={24} sm={24} md={9} lg={7} xl={5}>
                     <Menu mode="inline">
                         { NewspaperData.map (paperItem => 
                             <Menu.Item  key = { paperItem.id }>
@@ -21,7 +21,7 @@ const NewspaperList = () => {
                     </Menu>
                 </Col>
 
-                <Col className="news--list__news__item" xs={24} sm={24} md={8} lg={18} xl={18}>
+                <Col className="news--list__news__item" xs={24} sm={24} md={15} lg={17} xl={18}>
                     <NewsList />
                 </Col>
             </Row>
